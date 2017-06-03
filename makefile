@@ -1,2 +1,4 @@
-makecheck: check.c
-	gcc -o checkmake check.c -I.
+makehell: check.c
+	@gcc -o makehell check.c -I.
+test: 
+	@./makehell < input.txt
