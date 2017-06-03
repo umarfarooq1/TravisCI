@@ -3,5 +3,5 @@
 int main()
 {
 	printf("Hello World!");
-	printf("this is umar farooq");
+	printf("this is umar farooq")
 }
