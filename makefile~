@@ -9,4 +9,4 @@ makehello: check1.c
 test: 
 	@./makehell < input.txt > out1.txt
 	@./makehello < input.txt > out2.txt
-	@diff out1.txt out2.txt
+	@./diff out1.txt out2.txt

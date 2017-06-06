@@ -7,7 +7,7 @@ int main() {
 	scanf("%d",&y);
 	printf("x = %d, y = %d\n",x,y);
 	//assert(x==y); //x should be equal to y
-	if (x <= y)
+	if (x == y)
 		printf("Hello world! The test from inputfile passed.\n");
 	else 
 		printf("Your test has failed.\n");	
